@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gogru Ingles</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="assets/site-logo.jpg" alt="Logo de Gogru Ingles">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Horarios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="redes-sociales">
+      <a href="https://gogruingles.com" target="_blank" rel="noopener noreferrer">
+        <img src="assets/networks/facebook.png" alt="Compartir en Facebook">
+      </a>
+      <br>
+      <a href="https://gogruingles.com" target="_blank" rel="noopener noreferrer">
+        <img src="assets/networks/twitter.png" alt="Compartir en Twitter">
+      </a>
+      <br>
+      <a href="https://gogruingles.com" target="_blank" rel="noopener noreferrer">
+        <img src="assets/networks/instagram.png" alt="Compartir en Instagram">
+      </a>
+      <br>
+      <a href="https://gogruingles.com" target="_blank" rel="noopener noreferrer">
+        <img src="assets/networks/wa.png" alt="Compartir en WhatsApp">
+      </a>
+      <br>
+    </div>
+  </header>
+
+  <!-- Body -->
+  <main>
+    <div class="contenido">
+      <!-- Foro de preguntas frecuentes -->
+      <div class="faq">
+        <h2>Preguntas Frecuentes</h2>
+        <ul>
+          <li><a href="#">¿Cómo me inscribo en un curso?</a></li>
+          <li><a href="#">¿Cuáles son los horarios de clases?</a></li>
+          <li><a href="#">¿Cómo puedo contactar al profesor?</a></li>
+        </ul>
+      </div>
+      <!-- Chat -->
+      <div class="chat">
+        <h2>Chat en Vivo</h2>
+        <div class="chat-messages">
+          <!-- Messages will be displayed here -->
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Escribe tu mensaje aquí...">
+          <button>Enviar</button>
+        </div>
+      </div>
+    </div>
+    <div class="recorte"></div>
+    <div class="container">
+      <br>
+      <div id="theCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+          <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#theCarousel" data-slide-to="1"></li>
+          <li data-target="#theCarousel" data-slide-to="2"></li>
+          <li data-target="#theCarousel" data-slide-to="3"></li>
+
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="http://www.bcu.ac.uk/mediaitem/visual-communication-illustration-02-130585258441045504.jpg?quality=90" alt="Ilustracion" >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Gusti Ilustración</h3>
+              <p>Exposición</p>
+            </div>
+          </div>
+
+
+
+          <div class="item">
+            <img src="https://i.blogs.es/110b6e/d1237-059/1366_2000.jpg" alt="fotografia" width="600" height="424">
+            <div class="carousel-caption d-none d-md-block">
+              <h3> Xataka Fotografía</h3>
+              <p>Concurso</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/e86e8b59124321.5a15e4ccd8622.jpg" alt="pintura" width="600" height="424">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>DoArt Pintura</h3>
+              <p>Curso</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://cdn.dribbble.com/users/324248/screenshots/3978513/planet2_800.jpg" alt="diseno" width="600" height="424">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>UX UI Diseño Gráfico</h3>
+              <p>Curso</p>
+            </div>
+          </div>
+
+
+          <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">anterior</span>
+          </a>
+          <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">siguiente</span>
+          </a>
+        </div>
+      </div>
+    <div class="video-wrapper" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
+    <br><br><br>
+    <div>
+      <button id="toggleAnimation">ANIMACION EMBEBIDA</button>
+      <img src="assets/esc_ing.gif" id="animatedImage" style="display: none;">
+    </div>
+    <div class="signupFrm">
+      <form action="" class="form">
+        <h1 class="title">Formulario</h1>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="Ingresa tu Email">
+          <label for="" class="label">Email</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="Ingresa tu usuario">
+          <label for="" class="label">Usuario</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="Ingresa tu contraseña">
+          <label for="" class="label">Contraseña</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="Confirma tu contraseña">
+          <label for="" class="label">Confirma tu Contraseña</label>
+        </div>
+        <input type="submit" class="submitBtn" value="Registrar">
+      </form>
+    </div>
+    <br>
+    <h1>Ubicación</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1888673209605!2d-99.11598792415674!3d19.404243941584664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff4c147cff73%3A0xb999a5d2e9b6a002!2sFrancisco%20del%20paso%20Residencial!5e0!3m2!1ses-419!2smx!4v1714975422023!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PDllC05gXAA?si=8jLzW0b61tTj5iHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="rating">
+      <input value="5" name="rate" id="star5" type="radio">
+      <label title="text" for="star5"></label>
+      <input value="4" name="rate" id="star4" type="radio">
+      <label title="text" for="star4"></label>
+      <input value="3" name="rate" id="star3" type="radio">
+      <label title="text" for="star3"></label>
+      <input value="2" name="rate" id="star2" type="radio">
+      <label title="text" for="star1"></label>
+      <input value="1" name="rate" id="star1" type="radio">
+      <label title="text" for="star1"></label>
+    </div>
+    <div class="rating">
+      <h2>Valoración de la página</h2>
+      <div class="stars">
+        <!-- Stars will be displayed here -->
+      </div>
+      <p>Has valorado esta página con <span id="currentPageRating">0</span> estrellas</p>
+    </div>
+    <p>Contacto: <a href="mailto:info@gogruingles.com">info@gogruingles.com</a> | Teléfono: 123-456-7890</p>
+  </footer>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+</title>
+</head>
+<style>
+  /* styles.css */
+
+  body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Color de texto gris oscuro */
+  }
+
+  header {
+    background-color: #1c3961; /* Azul de fondo */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .redes-sociales img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  nav ul li {
+    margin-right: 20px;
+  }
+
+
+
+  main {
+    padding: 20px;
+  }
+
+  .contenido {
+    display: flex;
+  }
+
+  .faq, .chat {
+    flex: 1;
+    background-color: #f8f9fa; /* Gris claro */
+    padding: 20px;
+  }
+
+  .faq h2 {
+    color: #333; /* Texto gris oscuro */
+  }
+
+  .faq ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .faq ul li {
+    margin-bottom: 10px;
+  }
+
+  .chat {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .chat h2 {
+    margin-top: 0;
+  }
+
+  .chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  .message {
+    margin-bottom: 5px;
+  }
+
+  .chat-input {
+    margin-top: 10px;
+  }
+
+  .chat-input input {
+    width: 80%;
+    padding: 5px;
+  }
+
+  .chat-input button {
+    width: 30%;
+    padding: 5px;
+  }
+
+  .signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
+
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+  .input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+
+  .label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+
+  .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .submitBtn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+  }
+
+  /* Hide the placeholder texts (a) */
+  ::placeholder {
+    color: transparent;
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+
+  .rating {
+    margin-top: 20px;
+  }
+
+  .rating h2 {
+    margin-bottom: 10px;
+  }
+
+  .stars {
+    font-size: 30px;
+  }
+
+  .stars span {
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+
+  .stars span.rated {
+    color: #ffc107; /* Color de estrella seleccionada */
+  }
+
+  .video-wrapper {
+    width: 20%;
+  }
+
+
+  @keyframes cartero {
+    from {
+      background-position: 0px;
+    }
+
+    to {
+      background-position: -560px;
+    }
+  }
+
+  @-ms-keyframes cartero {
+    from {
+      background-position: 0px;
+    }
+
+    to {
+      background-position: -560px;
+    }
+  }
+
+  @-o-keyframes cartero {
+    from {
+      background-position: 0px;
+    }
+
+    to {
+      background-position: -560px;
+    }
+  }
+
+  @-webkit-keyframes cartero {
+    from {
+      background-position: 0px;
+    }
+
+    to {
+      background-position: -560px;
+    }
+  }
+
+  @-moz-keyframes cartero {
+    from {
+      background-position: 0px;
+    }
+
+    to {
+      background-position: -560px;
+    }
+  }
+
+  .recorte {
+    width: 600px;
+    height: 300px;
+    background-image: url("https://eleternoestudiante.com/wp-content/uploads/2020/03/cropped-cursos-ingles-gratis-marzo-2020-1.jpg");
+    -ms-animation: cartero .8s steps(8, end) infinite;
+    -webkit-animation: cartero .8s steps(8, end) infinite;
+    -moz-animation: cartero .8s steps(8, end) infinite;
+    -o-animation: cartero .8s steps(8, end) infinite;
+    animation: cartero .8s steps(8, end) infinite;
+    align-content: center;
+  }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 60%;
+    margin: auto;
+  }
+
+  .rating:not(:checked) > input{
+    position: absolute;
+    appearance: none;
+  }
+  .rating:not(:checked) > label{
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #e58e09;
+
+  }
+
+  .rating:not(:checked) > label::before{
+    content: '★';
+  }
+
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ∼ label,
+  .rating > input:checked ∼ label:hover,
+  .rating > input:checked ∼ label:hover ∼ label,
+  .rating > label:hover ∼ input:checked ∼ label{
+    color: #e58e09
+  }
+
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ∼ label{
+    color: #ff9e0b
+  }
+
+  .rating > input:checked ∼ label{
+    color: #ffa723
+  }
+
+
+
+
+
+</style>
+</html>
